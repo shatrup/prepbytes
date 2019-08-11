@@ -10,4 +10,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+
+}
+.header{
+  margin : 0 2%;
+}
+.resize {
+  width: 400px;
+  height: auto;
+}
+
+.resize {
+  width: 200px;
+  height: auto;
+}
+span{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+}
+.middle {
+  margin-top:2%;
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+.border1{
+  margin: auto;
+border-radius: 25px;
+border: 1px solid rgb(11, 248, 236);
+padding: 10px; 
+width: 70%;
+}
+
+/* i{
+  background: white;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius:50%;
+  display:inline-block;
+  padding:10px;
+} */
+
+.service{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.svg-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  width: 100%
+}
+
+svg {
+  position: absolute;
+  display: block;
+}
+
+text{
+  font-size: 2px;
+  font-weight: bold;
 }
