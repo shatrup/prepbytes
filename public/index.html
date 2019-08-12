@@ -38,8 +38,27 @@
       The build step will place the bundled scripts into the <body> tag.
 
       To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      To create a production bundle, use `npm run build` or `yarn build`.<!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDH6BYHxhTcqRYHUr1CVBqHs9rWCCzDKzk",
+      authDomain: "prepbytes-22be6.firebaseapp.com",
+      databaseURL: "https://prepbytes-22be6.firebaseio.com",
+      projectId: "prepbytes-22be6",
+      storageBucket: "",
+      messagingSenderId: "541365203989",
+      appId: "1:541365203989:web:7ddf4833da636b9d"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  -->
 </body>
 
 </html>
